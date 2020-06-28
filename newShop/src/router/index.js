@@ -18,11 +18,13 @@ export default new Router({
     {
       path: '/miste',
       name: 'miste',
-      component: Miste
+      component: Miste,
+      meta:{requiresAuth:true}
     },{
       path:'/order',
       name:'order',
-      component:Order
+      component:Order,
+      meta:{requiresAuth:true}
     },
     {
       path: '/profile',

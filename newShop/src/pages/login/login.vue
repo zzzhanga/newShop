@@ -1,40 +1,22 @@
 <template>
-    <div>
-login
-    </div>
+  <div>
+    login
+  </div>
 </template>
 
 <script>
 export default {
-    props: {
-
-    },
-    data() {
-        return {
-
-        };
-    },
-    computed: {
-
-    },
-    created() {
-
-    },
-    mounted() {
-
-    },
-    watch: {
-
-    },
-    methods: {
-
-    },
-    components: {
-
-    },
+  props: {},
+  data() {
+    return {};
+  },
+  computed: {},
+  created() {},
+  mounted() {},
+  watch: {},
+  methods: {},
+  components: {}
 };
 </script>
 
-<style scoped lang="stylus">
-
-</style>
+<style scoped lang="stylus"></style>
